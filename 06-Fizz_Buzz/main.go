@@ -16,6 +16,8 @@ func main() {
 			fmt.Println(i, "Fizz")
 		case i%5 == 0:
 			fmt.Println(i, "Buzz")
+		default:
+			fmt.Println(i)
 		}
 	}
 }
